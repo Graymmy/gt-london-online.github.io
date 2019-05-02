@@ -1,0 +1,37 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page5665494.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Scheme} =http
+RewriteRule ^(.*)$ https://gt-london-online\.club/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Scheme} =https
+RewriteCond %{HTTP_HOST} ^www\.gt-london-online.club [NC]
+RewriteRule ^(.*)$ https://gt-london-online\.club/$1 [R=301,L]
+
+RewriteRule ^1$ page5665494.html [NC]
+RewriteRule ^1/$ page5665494.html [NC]
+
+RewriteRule ^prov2$ page5565307.html [NC]
+RewriteRule ^prov2/$ page5565307.html [NC]
+
+RewriteRule ^fullform$ page5547468.html [NC]
+RewriteRule ^fullform/$ page5547468.html [NC]
+
+RewriteRule ^podval$ page5565927.html [NC]
+RewriteRule ^podval/$ page5565927.html [NC]
+
+RewriteRule ^prov$ page5723312.html [NC]
+RewriteRule ^prov/$ page5723312.html [NC]
+
+RewriteRule ^prov_secret$ page5723323.html [NC]
+RewriteRule ^prov_secret/$ page5723323.html [NC]
+
+RewriteRule ^ad$ page5732360.html [NC]
+RewriteRule ^ad/$ page5732360.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild6433-6137-4032-a630-336364313933/favicon.ico [R=301,L]
+

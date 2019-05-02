@@ -1,0 +1,11 @@
+User-Agent: *
+Disallow: /page5565927.html
+Disallow: /podval
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow:
+Sitemap: https://gt-london-online.club/sitemap.xml
+Host: https://gt-london-online.club
